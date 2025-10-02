@@ -1,0 +1,38 @@
+.footer {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--outline-variant);
+    @include breakpoint('small') {
+      padding-top: 32px;
+      margin-top: 64px;
+    }
+  }
+
+  .footer-social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .social-link {
+    transition: all 0.2s ease;
+    a {
+      text-decoration: none;
+      color: var(--on-surface);
+      font-size: 14px;
+      font-weight: 400;
+      font-family: 'Inter', sans-serif;
+      text-transform: lowercase;
+      transition: all 0.2s ease;
+      &:hover {
+        color: var(--primary);
+        text-decoration: underline;
+      }
+      &:visited {
+        color: var(--on-surface);
+      }
+    }
+  }
+  

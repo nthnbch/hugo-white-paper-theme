@@ -1,0 +1,15 @@
+name = "Hugo White Paper"
+license = "MIT"
+licenselink = "https://github.com/nthnbch/hugo-white-paper-theme/blob/main/LICENSE"
+description = "A clean, modern Hugo theme featuring Fraktur typography and Material Design principles"
+
+homepage = "https://github.com/nthnbch/hugo-white-paper-theme"
+demosite = "https://nathan.swiss"
+
+tags = ["blog", "minimal", "clean", "material-design", "modern", "fraktur", "typography", "personal"]
+features = ["blog", "material-design", "seo", "responsive", "minimalist"]
+min_version = "0.55.0"
+
+[author]
+  name = "Nathan Buache"
+  homepage = "https://nathan.swiss"
