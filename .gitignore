@@ -1,0 +1,23 @@
+# Hugo
+public/
+resources/
+.hugo_build.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Netlify
+.netlify/
