@@ -6,9 +6,9 @@
     {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
   </div>
   {{ .Content }}
-  {{ $paginator := .Paginate (where .Pages "Type" "posts") }}
-  {{ range $paginator.Pages }}
+  <!-- Display ALL posts without pagination -->
+  {{ $posts := where .Pages "Type" "posts" }}
+  {{ range $posts }}
     {{ .Render "summary" }}
   {{ end }}
-  {{ partial "paginator" . }}
 {{ end }}

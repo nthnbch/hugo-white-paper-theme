@@ -53,9 +53,6 @@ title = "Your Site Name"
   # Display options
   showIntroContentOnHomepage = true
   showPostsOnHomepage = false
-  usePaginationOnHomepage = false
-  limitPostsOnHomepage = 1
-  sortPostsByDateOldestFirst = false
   
   # Colors (Material Design)
   highlightColor = '#000000'

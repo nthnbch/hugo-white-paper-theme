@@ -17,19 +17,9 @@
       {{ $sorted = $pages.ByParam "date" }}
     {{ end }}
 
-    {{ $paginator := .Paginate $sorted }}
-
-    {{ if .Site.Params.usePaginationOnHomepage }}
-      {{ range $paginator.Pages }}
-        {{ .Render "summary" }}
-      {{ end }}
-      {{ partial "paginator" . }}
-    {{ else }}
-      {{ $limit := .Site.Params.limitPostsOnHomepage | default 3 }}
-      {{ range first $limit $sorted}}
-        {{ .Render "summary" }}
-      {{ end }}
-      <a class="view-more" href="/posts">More Posts</a>
+    <!-- Display ALL posts without pagination -->
+    {{ range $sorted }}
+      {{ .Render "summary" }}
     {{ end }}
   {{ end }}
 

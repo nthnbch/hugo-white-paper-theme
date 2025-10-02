@@ -6,9 +6,6 @@ title = "Hugo White Paper Theme"
 [params]
   showIntroContentOnHomepage = true
   showPostsOnHomepage = true
-  usePaginationOnHomepage = false
-  limitPostsOnHomepage = 3
-  sortPostsByDateOldestFirst = false
   highlightColor = '#000000'
   baseColor = "#fdfbff"
   baseOffsetColor = "#f7f2fa"
