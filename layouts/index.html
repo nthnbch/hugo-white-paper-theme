@@ -10,15 +10,9 @@
   </div>
 
   {{ if .Site.Params.showPostsOnHomepage }}
-
-    {{ $pages := where .Site.RegularPages "Type" "posts" }}
-    {{ $sorted := ($pages.ByParam "date").Reverse }}
-    {{ if .Site.Params.sortPostsByDateOldestFirst }}
-      {{ $sorted = $pages.ByParam "date" }}
-    {{ end }}
-
-    <!-- Display ALL posts without pagination -->
-    {{ range $sorted }}
+    <!-- Display ALL posts (newest first) -->
+    {{ $posts := where .Site.RegularPages "Type" "posts" }}
+    {{ range ($posts.ByParam "date").Reverse }}
       {{ .Render "summary" }}
     {{ end }}
   {{ end }}
