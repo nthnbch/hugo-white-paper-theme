@@ -1,14 +1,15 @@
 # Hugo White Paper Theme
 
-A clean, modern Hugo theme featuring Fraktur typography and Material Design principles. Built for readability, elegance, and performance.
+A clean, modern Hugo theme featuring mixed Fraktur/Inter typography. Built for readability, elegance, and performance with no pagination or taxonomy bloat.
 
 ![Hugo White Paper Theme](https://nathan.swiss/screenshot.png)
 
 ## Features
 
-- **Fraktur Typography**: Beautiful UnifrakturCook headings with Inter body text
-- **Material Design**: Clean implementation of Material Design 3 principles
-- **Minimalist Layout**: Focus on content with subtle visual enhancements
+- **Mixed Typography**: UnifrakturCook Fraktur combined with Inter for selective emphasis
+- **No Pagination**: Clean, simple post listings without pagination complexity
+- **No Taxonomies**: Streamlined without tags/categories overhead  
+- **Minimalist Layout**: Pure focus on content
 - **Responsive Design**: Optimized for all screen sizes
 - **Fast Loading**: Lightweight and optimized assets
 - **SEO Optimized**: Comprehensive meta tags, Schema.org markup, and Open Graph
@@ -46,7 +47,14 @@ Update your `config.toml`:
 theme = "hugo-white-paper-theme"
 title = "Your Site Name"
 
+# Disable pagination and taxonomies for clean simplicity
+disableKinds = ["taxonomy", "term"]
+
 [params]
+  # Mixed title fonts (e.g., "nathan" in Inter, ".swiss" in Fraktur)
+  titlePart1 = "nathan"        # Will use Inter
+  titlePart2 = ".swiss"        # Will use Fraktur
+  
   # Google Analytics (optional)
   google_analytics_id = "G-XXXXXXXXXX"
   
@@ -69,18 +77,23 @@ title = "Your Site Name"
   fontFamilyMonospace = "Inter"
 ```
 
-## Content Structure
+## Typography Features
 
+### Mixed Title Fonts
+The theme supports mixed fonts in the site title via CSS pseudo-elements:
+- First part uses Inter font
+- Second part uses Fraktur font
+- Configure via `titlePart1` and `titlePart2` parameters
+
+### Selective Fraktur Words
+Use the `.fraktur-word` class to apply Fraktur font to specific words:
+
+```markdown
+This word is **<span class="fraktur-word">Fraktur</span>** styled.
 ```
-content/
-├── _index.md           # Homepage
-├── pages/
-│   ├── about.md       # About page
-│   └── projects.md    # Projects page
-└── posts/
-    ├── _index.md      # Blog listing
-    └── post-name.md   # Individual posts
-```
+
+### Bold Post Titles
+Post titles in listings are automatically styled in bold for better hierarchy.
 
 ## Customization
 
@@ -130,30 +143,14 @@ Add social links in `data/social.json`:
 }
 ```
 
-## Development
-
-### Prerequisites
-
-- Hugo Extended v0.55.0 or higher
-- Go (optional, for Hugo Modules)
-
-### Local Development
-
-```bash
-# From your Hugo site root
-hugo server
-
-# Or from the theme directory
-hugo server --source=exampleSite --themesDir=../..
-```
-
 ## License
 
 MIT License - See [LICENSE](LICENSE) file for details
 
 ## Credits
 
-Created by [Nathan Buache](https://nathan.swiss)
+Created by Nathan Buache  
+Initially inspired by Hugo Winston Theme
 
 ## Support
 
