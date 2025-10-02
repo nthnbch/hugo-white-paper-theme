@@ -51,15 +51,12 @@ title = "Your Site Name"
   google_analytics_id = "G-XXXXXXXXXX"
   
   # Display options
-  showAuthorOnHomepage = false
-  showAuthorOnPosts = false
   showIntroContentOnHomepage = true
   showPostsOnHomepage = false
   usePaginationOnHomepage = false
   limitPostsOnHomepage = 1
   sortPostsByDateOldestFirst = false
   addDot = true
-  addFrame = false
   
   # Colors (Material Design)
   highlightColor = '#000000'
@@ -67,7 +64,6 @@ title = "Your Site Name"
   baseOffsetColor = "#f7f2fa"
   headingColor = "#1c1b1f"
   textColor = "#49454f"
-  dotColor = "#000000"
   
   # Fonts
   enableGoogleFonts = true 
