@@ -4,8 +4,6 @@ theme = "hugo-white-paper-theme"
 title = "Hugo White Paper Theme"
 
 [params]
-  showAuthorOnHomepage = false
-  showAuthorOnPosts = false
   showIntroContentOnHomepage = true
   showPostsOnHomepage = true
   usePaginationOnHomepage = false

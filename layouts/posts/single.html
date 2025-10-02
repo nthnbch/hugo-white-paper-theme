@@ -2,9 +2,6 @@
 
 {{ define "main" }}
   <div class="blog">
-    {{ if .Site.Params.showAuthorOnPosts }}
-      {{ partial "author.html" . }}
-    {{ end }}
     <div class="intro">
       <h1>{{ .Title }}</h1>
       {{ if .Params.image }}

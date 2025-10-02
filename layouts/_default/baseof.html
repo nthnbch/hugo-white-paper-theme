@@ -24,7 +24,6 @@
   {{ block "meta_tags" . }}
     {{ if .Params.description }}<meta name="description" content="{{ .Params.description }}"/>{{ end }}
     <meta name="keywords" content="Nathan Buache, Test Manager, QA, Quality Assurance, Lausanne, Switzerland, Web Testing, Software Testing, QoQa"/>
-    <meta name="author" content="Nathan Buache"/>
     <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }} - Test Manager | QA Specialist{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="{{ .Permalink }}"/>
