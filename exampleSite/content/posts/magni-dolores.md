@@ -3,7 +3,6 @@ title: "Magni Dolores"
 date: 2024-04-05
 draft: false
 description: "Magni dolores eos qui ratione voluptatem sequi nesciunt neque porro quisquam est."
-tags: ["magni", "dolores", "ratione"]
 ---
 
 # Magni Dolores Eos

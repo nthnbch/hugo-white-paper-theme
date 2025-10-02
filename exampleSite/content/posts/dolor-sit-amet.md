@@ -3,7 +3,6 @@ title: "Dolor Sit Amet"
 date: 2024-01-15
 draft: false
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
-tags: ["lorem", "ipsum", "dolor"]
 ---
 
 # Dolor Sit Amet

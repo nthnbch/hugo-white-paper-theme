@@ -3,7 +3,6 @@ title: "Consectetur Adipiscing"
 date: 2024-02-20
 draft: false
 description: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-tags: ["consectetur", "adipiscing", "elit"]
 ---
 
 # Consectetur Adipiscing Elit

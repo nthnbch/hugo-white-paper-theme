@@ -3,7 +3,6 @@ title: "Voluptas Nulla Pariatur"
 date: 2024-05-12
 draft: false
 description: "Voluptas nulla pariatur excepteur sint occaecat cupidatat non proident sunt in culpa."
-tags: ["voluptas", "pariatur", "excepteur"]
 ---
 
 # Voluptas Nulla Pariatur
