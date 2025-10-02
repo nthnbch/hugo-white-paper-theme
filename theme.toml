@@ -6,7 +6,6 @@ description = "A clean, modern Hugo theme featuring Fraktur typography and Mater
 homepage = "https://github.com/nthnbch/hugo-white-paper-theme"
 demosite = "https://nathan.swiss"
 
-tags = ["blog", "minimal", "clean", "material-design", "modern", "fraktur", "typography", "personal"]
 features = ["blog", "material-design", "seo", "responsive", "minimalist"]
 min_version = "0.55.0"
 

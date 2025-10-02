@@ -56,7 +56,6 @@ title = "Your Site Name"
   usePaginationOnHomepage = false
   limitPostsOnHomepage = 1
   sortPostsByDateOldestFirst = false
-  addDot = true
   
   # Colors (Material Design)
   highlightColor = '#000000'
