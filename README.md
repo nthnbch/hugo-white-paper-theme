@@ -2,7 +2,7 @@
 
 A clean, modern Hugo theme featuring mixed Fraktur/Inter typography. Built for readability, elegance, and performance with no pagination or taxonomy bloat.
 
-![Hugo White Paper Theme](https://nathan.swiss/screenshot.png)
+[![Hugo White Paper Theme](images/screenshot.png)]
 
 ## Features
 
