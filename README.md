@@ -150,7 +150,7 @@ MIT License - See [LICENSE](LICENSE) file for details
 ## Credits
 
 Created by Nathan Buache  
-Initially inspired by Hugo Winston Theme
+Initially inspired by [Hugo Winston Theme](https://github.com/zerostaticthemes/hugo-winston-theme)
 
 ## Support
 
