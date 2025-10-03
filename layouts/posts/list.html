@@ -6,7 +6,6 @@
     {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
   </div>
   {{ .Content }}
-  <!-- Display ALL posts without pagination -->
   {{ $posts := where .Pages "Type" "posts" }}
   {{ range $posts }}
     {{ .Render "summary" }}

@@ -10,7 +10,6 @@
   </div>
 
   {{ if .Site.Params.showPostsOnHomepage }}
-    <!-- Display ALL posts (newest first) -->
     {{ $posts := where .Site.RegularPages "Type" "posts" }}
     {{ range ($posts.ByParam "date").Reverse }}
       {{ .Render "summary" }}

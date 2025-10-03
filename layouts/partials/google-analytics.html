@@ -1,9 +1,7 @@
 {{- if hugo.IsServer -}}
-  <!-- Dont add Google analytics to localhost -->
 {{ else }}
   {{ $gid := (getenv "HUGO_GOOGLE_ANALYTICS_ID") }}
   {{ if $gid }}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{- $gid -}}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -13,7 +11,6 @@
     </script>
   {{ else }}
     {{ if .Site.Params.google_analytics_id }}
-      <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id={{- .Site.Params.google_analytics_id -}}"></script>
       <script>
         window.dataLayer = window.dataLayer || [];

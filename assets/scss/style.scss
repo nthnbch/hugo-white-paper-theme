@@ -1,5 +1,4 @@
 :root {
-  /* Material You Baseline Color Scheme - Light Theme */
   --primary: #000000;
   --on-primary: #ffffff;
   --primary-container: #eaddff;
@@ -33,23 +32,19 @@
   --outline: #79747e;
   --outline-variant: #cac4d0;
 
-  /* Typography - Material You */
   --font-family-heading: 'UnifrakturCook', serif;
   --font-family-paragraph: 'Inter', sans-serif;
   --font-family-monospace: 'Inter', monospace;
 
-  /* Elevation */
   --shadow-key-penumbra-opacity: 0.2;
   --shadow-key-umbra-opacity: 0.14;
   --shadow-ambient-shadow-opacity: 0.12;
 
-  /* Shape */
   --border-radius: 12px;
   --border-radius-large: 16px;
   --border-radius-small: 8px;
 }
 
-/* Material You Elevation System */
 .elevation-0 {
   box-shadow: none;
 }
